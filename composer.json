@@ -1,0 +1,40 @@
+{
+    "name": "luca-castelnuovo/wiskunde-site",
+    "description": "WiskundeSite",
+    "keywords": [
+        "wiskundesite",
+        "wiskunde"
+    ],
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "php": "^7.2",
+        "laravel/lumen-framework": "^6.0",
+        "vlucas/phpdotenv": "^3.3"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.4",
+        "mockery/mockery": "^1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "insight": "php artisan insights --no-interaction --min-quality=95 --min-complexity=80 --min-architecture=90 --min-style=95"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
