@@ -1,1 +1,2 @@
-# Europamarkt-Backend 
+# [DEPRECATED] Europamarkt
+Interactive voting/scoring board.
