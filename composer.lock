@@ -737,7 +737,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v6.15.1",
+            "version": "v6.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -1333,7 +1333,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v6.15.1",
+            "version": "v6.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
